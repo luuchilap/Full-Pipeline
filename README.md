@@ -1,5 +1,6 @@
 This project involves building a Scene Text Recognition system using pretrained models YOLOv8 and CRNN. It covers the entire pipeline from data preparation, model training, to evaluation, ensuring the system can detect and recognize text in natural scene images effectively.
 The project uses **YOLOv8** for text detection and **CRNN** for text recognition.
+
 **Part I: Introduction**
 
 •	Objective: Recognize text in natural scene images.
