@@ -44,6 +44,9 @@ Phase 3: Text Recognition
 1.	Data Preparation: Extract images containing only text and corresponding string labels from ICDAR2003.
 
 2.	Model Selection: Use Convolutional Recurrent Neural Networks (CRNN) to handle the image and sequential nature of the data.
+  
 3.	Implementation:
-•	Import necessary libraries.
-•	Prepare the dataset for training the CRNN model.
+   
+    •	Import necessary libraries.
+  	
+    •	Prepare the dataset for training the CRNN model.
