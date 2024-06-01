@@ -2,50 +2,47 @@ This project involves building a Scene Text Recognition system using pretrained 
 The project uses YOLOv8 for text detection and CRNN for text recognition.
 Part I: Introduction
 
-Objective: Recognize text in natural scene images.
+•	Objective: Recognize text in natural scene images.
 
-Applications: Text processing in documents, information retrieval from online images, and automation tasks like order processing and payment.
+•	Applications: Text processing in documents, information retrieval from online images, and automation tasks like order processing and payment.
 
-Stages:
+•	Stages:
 
-Text Detection (Detector): Locating text within an image.
+o	Text Detection (Detector – YOLOv8): Locating text within an image.
 
-Text Recognition (Recognizer): Identifying the text found.
-
-The project uses YOLOv8 for text detection and CRNN for text recognition.
-
+o	Text Recognition (Recognizer - CRNN): Identifying the text found.
 
 Part II: Program Implementation
 
 Phase 1: Data Preparation
 
-Dataset Download: The project uses the ICDAR2003 dataset.
+1.	Dataset Download: The project uses the ICDAR2003 dataset.
 
-Text Detection Module:
+2.	Text Detection Module:
 
-Library Installation: Install necessary libraries like ultralytics for YOLOv8.
+•	Library Installation: Install necessary libraries like ultralytics for YOLOv8.
 
-Data Preparation:
+•	Data Preparation:
 
-Extract relevant information from XML files in ICDAR2003.
+o	Extract relevant information from XML files in ICDAR2003.
 
-Convert data to the YOLOv8 format, with normalized bounding box coordinates.
+o	Convert data to the YOLOv8 format, with normalized bounding box coordinates.
 
-Save the prepared data into appropriate folders for training, validation, and testing.
+o	Save the prepared data into appropriate folders for training, validation, and testing.
 
-Create a data.yaml file to manage paths and class names.
+o	Create a data.yaml file to manage paths and class names.
 
 Phase 2: Model Training
 
-Text Detection: Train YOLOv8 model using the prepared dataset.
+•	Text Detection: Train YOLOv8 model using the prepared dataset.
 
-Evaluation: Evaluate the trained model to validate performance.
+•	Evaluation: Evaluate the trained model to validate performance.
 
 Phase 3: Text Recognition
 
-Data Preparation: Extract images containing only text and corresponding string labels from ICDAR2003.
+1.	Data Preparation: Extract images containing only text and corresponding string labels from ICDAR2003.
 
-Model Selection: Use Convolutional Recurrent Neural Networks (CRNN) to handle the image and sequential nature of the data.
-Implementation:
-Import necessary libraries.
-Prepare the dataset for training the CRNN model.
+2.	Model Selection: Use Convolutional Recurrent Neural Networks (CRNN) to handle the image and sequential nature of the data.
+3.	Implementation:
+•	Import necessary libraries.
+•	Prepare the dataset for training the CRNN model.
