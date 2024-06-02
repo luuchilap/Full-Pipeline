@@ -15,7 +15,7 @@ o	Text Recognition (Recognizer - CRNN): Identifying the text found.
 
 # **Part II: Program Implementation**
 
-Phase 1: Data Preparation
+**Phase 1: Data Preparation**
 
 1.	Dataset Download: The project uses the ICDAR2003 dataset.
 
@@ -33,13 +33,13 @@ o	Save the prepared data into appropriate folders for training, validation, and 
 
 o	Create a data.yaml file to manage paths and class names.
 
-Phase 2: Model Training
+**Phase 2: Model Training**
 
 •	Text Detection: Train YOLOv8 model using the prepared dataset.
 
 •	Evaluation: Evaluate the trained model to validate performance.
 
-Phase 3: Text Recognition
+**Phase 3: Text Recognition**
 
 1.	Data Preparation: Extract images containing only text and corresponding string labels from ICDAR2003.
 
