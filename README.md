@@ -1,3 +1,11 @@
+# Link Google Colab: 
+
++Text Detection: https://colab.research.google.com/drive/1DIk5Z7ZVe2_e9RskvV7Pl9YcRTMAod6H
+
++Text Recognition: https://colab.research.google.com/drive/1yL-iA_Z7qwoWRnwbJEQiJjMvf0swtNIU
+
++Full Pipeline: https://colab.research.google.com/drive/1eUbLi7Yuqk0OXOMPcr9aAS2yaQN3T-zY
+
 # Google Colab: https://drive.google.com/drive/folders/1ZiD_Iu3k_ilTy99rhF1PBD_XGqO10Vy5?usp=drive_link
 
 This project involves building a Scene Text Recognition system using pretrained models YOLOv8 and CRNN. It covers the entire pipeline from data preparation, model training, to evaluation, ensuring the system can detect and recognize text in natural scene images effectively.
@@ -53,10 +61,4 @@ o	Create a data.yaml file to manage paths and class names.
   	
     •	Prepare the dataset for training the CRNN model.
 
-# Link Google Colab: 
 
-+Text Detection: https://colab.research.google.com/drive/1DIk5Z7ZVe2_e9RskvV7Pl9YcRTMAod6H
-
-+Text Recognition: https://colab.research.google.com/drive/1yL-iA_Z7qwoWRnwbJEQiJjMvf0swtNIU
-
-+Full Pipeline: https://colab.research.google.com/drive/1eUbLi7Yuqk0OXOMPcr9aAS2yaQN3T-zY
