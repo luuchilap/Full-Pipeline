@@ -50,3 +50,11 @@ o	Create a data.yaml file to manage paths and class names.
     •	Import necessary libraries.
   	
     •	Prepare the dataset for training the CRNN model.
+
+# Link Google Colab: 
+
++Text Detection: https://colab.research.google.com/drive/1DIk5Z7ZVe2_e9RskvV7Pl9YcRTMAod6H
+
++Text Recognition: https://colab.research.google.com/drive/1yL-iA_Z7qwoWRnwbJEQiJjMvf0swtNIU
+
++Full Pipeline: https://colab.research.google.com/drive/1eUbLi7Yuqk0OXOMPcr9aAS2yaQN3T-zY
