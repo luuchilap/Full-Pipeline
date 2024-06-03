@@ -1,5 +1,4 @@
-# Note:
-In case cannot see the code, you can access this Google Colab link: https://drive.google.com/drive/folders/1ZiD_Iu3k_ilTy99rhF1PBD_XGqO10Vy5?usp=drive_link
+**Note:** In case cannot see the code, you can access this Google Colab link: https://drive.google.com/drive/folders/1ZiD_Iu3k_ilTy99rhF1PBD_XGqO10Vy5?usp=drive_link
 
 This project involves building a Scene Text Recognition system using pretrained models YOLOv8 and CRNN. It covers the entire pipeline from data preparation, model training, to evaluation, ensuring the system can detect and recognize text in natural scene images effectively.
 The project uses **YOLOv8** for text detection and **CRNN** for text recognition.
